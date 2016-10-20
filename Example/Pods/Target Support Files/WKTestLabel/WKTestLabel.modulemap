@@ -1,0 +1,6 @@
+framework module WKTestLabel {
+  umbrella header "WKTestLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}

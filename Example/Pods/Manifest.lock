@@ -1,0 +1,16 @@
+PODS:
+  - WKTestLabel (0.1.0)
+
+DEPENDENCIES:
+  - WKTestLabel (from `../`)
+
+EXTERNAL SOURCES:
+  WKTestLabel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WKTestLabel: 210c634116a7f6b7ed66e4f9c8340cd41c2d3cbb
+
+PODFILE CHECKSUM: ebd0eade4c01806bac71af44582be5c81973a6df
+
+COCOAPODS: 1.1.0.rc.3

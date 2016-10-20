@@ -1,0 +1,22 @@
+{
+  "name": "WKTestLabel",
+  "version": "0.1.0",
+  "summary": "A short description of WKTestLabel.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/WKTestLabel",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "WuKongCoo1": "wu_kong_coo1@163.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/WKTestLabel.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WKTestLabel/Classes/**/*"
+}

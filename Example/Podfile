@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WKTestLabel_Example' do
+  pod 'WKTestLabel', :path => '../'
+
+  target 'WKTestLabel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

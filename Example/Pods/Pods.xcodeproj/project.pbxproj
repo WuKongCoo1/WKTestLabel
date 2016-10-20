@@ -9,7 +9,8 @@
 /* Begin PBXBuildFile section */
 		33839948D6A824FE94656ECAE1072408 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		4356FE02EEDA362C7344FEBF8FBA6137 /* Pods-WKTestLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E00BE847C1D8058CC9DEB9D5611427A /* Pods-WKTestLabel_Tests-dummy.m */; };
-		4AE6EC3FD6F81F688BC11D0C98E5E775 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC7ED523FF5A48A176B9EBB18353DA9 /* ReplaceMe.m */; };
+		67BF8C491DB854B8004F79DC /* WKTestLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 67BF8C471DB854B8004F79DC /* WKTestLabel.h */; };
+		67BF8C4A1DB854B8004F79DC /* WKTestLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BF8C481DB854B8004F79DC /* WKTestLabel.m */; };
 		7C35BC6A8CA6972B37E9121347986175 /* Pods-WKTestLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 747A515D58A654430CF2C1F8EF81F049 /* Pods-WKTestLabel_Example-dummy.m */; };
 		B8E510151FB1A1093711D95BE1D23C2C /* Pods-WKTestLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FA2ED28804983ADF49DADF3C81AC5F6 /* Pods-WKTestLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C93500A6834CB19C9D3A59170DB7728A /* Pods-WKTestLabel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E736C8199539FFC291854B096F5D786A /* Pods-WKTestLabel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -38,9 +39,10 @@
 		3FA2ED28804983ADF49DADF3C81AC5F6 /* Pods-WKTestLabel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WKTestLabel_Tests-umbrella.h"; sourceTree = "<group>"; };
 		42007DF6A9722D9568CF1D5124874ABB /* WKTestLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WKTestLabel-dummy.m"; sourceTree = "<group>"; };
 		49388FBD7A24A1771687E9CA354CFFA1 /* Pods-WKTestLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WKTestLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4BC7ED523FF5A48A176B9EBB18353DA9 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		4C85B68C450ADBD43174663CB20A04EE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F60DA58BB70F5244AC3AC731FBA6EF2 /* Pods-WKTestLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WKTestLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		67BF8C471DB854B8004F79DC /* WKTestLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKTestLabel.h; sourceTree = "<group>"; };
+		67BF8C481DB854B8004F79DC /* WKTestLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKTestLabel.m; sourceTree = "<group>"; };
 		6D18DF2D04BEF8393788E4311579CCAA /* WKTestLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WKTestLabel.xcconfig; sourceTree = "<group>"; };
 		705B97DA7A2A1138D4A1C5C54CB26FC7 /* WKTestLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WKTestLabel-prefix.pch"; sourceTree = "<group>"; };
 		747A515D58A654430CF2C1F8EF81F049 /* Pods-WKTestLabel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WKTestLabel_Example-dummy.m"; sourceTree = "<group>"; };
@@ -217,7 +219,8 @@
 		EF319B5ABDB98A3F0206EE917DC0CC13 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				4BC7ED523FF5A48A176B9EBB18353DA9 /* ReplaceMe.m */,
+				67BF8C471DB854B8004F79DC /* WKTestLabel.h */,
+				67BF8C481DB854B8004F79DC /* WKTestLabel.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -238,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C93500A6834CB19C9D3A59170DB7728A /* Pods-WKTestLabel_Example-umbrella.h in Headers */,
+				67BF8C491DB854B8004F79DC /* WKTestLabel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,7 +341,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AE6EC3FD6F81F688BC11D0C98E5E775 /* ReplaceMe.m in Sources */,
 				DC191AA177691C267897DF7E09B266B1 /* WKTestLabel-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,6 +349,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67BF8C4A1DB854B8004F79DC /* WKTestLabel.m in Sources */,
 				7C35BC6A8CA6972B37E9121347986175 /* Pods-WKTestLabel_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
